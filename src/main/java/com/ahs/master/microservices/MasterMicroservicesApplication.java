@@ -22,4 +22,13 @@ public class MasterMicroservicesApplication {
         localeResolver.setDefaultLocale(Locale.US);
         return localeResolver;
     }
+    
+    // Equivalente a la propiedad spring.messages.basename
+    // @Bean
+    // public ResourceBundleMessageSource messageSource(){
+    // ResourceBundleMessageSource messageSource = new
+    // ResourceBundleMessageSource();
+    // messageSource.addBasenames("messages");
+    // return messageSource;
+    // }
 }

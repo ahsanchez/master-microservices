@@ -29,6 +29,13 @@ public class HelloWorldController {
         return new HelloWorldBean(String.format("Hello World, %s", name));
     }
     
+    // @GetMapping("/hello-world-internationalized")
+    // public String HelloWorldInternationalized(
+    // @RequestHeader(name = "Accept-Language", required = false) Locale
+    // locale){
+    // return messageSource.getMessage("good.morning.message", null, locale);
+    // }
+    
     @GetMapping("/hello-world-internationalized")
     public String HelloWorldInternationalized(){
         return messageSource.getMessage("good.morning.message", null, LocaleContextHolder.getLocale());
