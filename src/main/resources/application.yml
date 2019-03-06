@@ -1,9 +1,16 @@
 spring:
   messages:    basename: messages
+  security:
+    user:
+      name: ana
+      password: ana
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
 management:
   endpoints:
     web:
       exposure:
         include: "*"
-          
-          

@@ -41,12 +41,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency> -->
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -70,10 +74,10 @@
 		</dependency>
 		<!-- convierte objetos a xml en lugar de a json. los objetos de entrada y salida se convierten a xml -->
 		<!-- peticiones con cabeceras accept y contentype application/xml -->
-		<dependency>
+		<!-- <dependency>
 	    	<groupId>com.fasterxml.jackson.dataformat</groupId>
 	    	<artifactId>jackson-dataformat-xml</artifactId>
-	    </dependency>
+	    </dependency> -->
 		
 		
 	</dependencies>

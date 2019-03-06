@@ -34,7 +34,13 @@ public class SwaggerConfig {
     
     @Bean
     public Docket api(){
-        return new Docket(DocumentationType.SWAGGER_2).apiInfo(DEFAULT_API_INFO).produces(DEAFULT_PRODUCES).consumes(
-                DEAFULT_CONSUMES);
+        return new Docket(DocumentationType.SWAGGER_2)/*
+                                                       * .apiInfo(
+                                                       * DEFAULT_API_INFO).
+                                                       * produces(
+                                                       * DEAFULT_PRODUCES).
+                                                       * consumes(
+                                                       * DEAFULT_CONSUMES)
+                                                       */;
     }
 }
